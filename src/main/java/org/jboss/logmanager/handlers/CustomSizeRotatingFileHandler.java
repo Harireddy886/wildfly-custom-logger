@@ -11,8 +11,9 @@ import java.nio.file.Paths;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.ErrorManager;
-import org.jboss.logging.MDC;
+
 import org.jboss.logmanager.ExtLogRecord;
+import org.jboss.logmanager.MDC;
 
 public class CustomSizeRotatingFileHandler extends SizeRotatingFileHandler {
 
