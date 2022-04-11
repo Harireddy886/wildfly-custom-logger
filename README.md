@@ -3,7 +3,7 @@ Wildfly generating logger files dynamically using custom handler and Mapped Diag
 
 download the custom-logger.jar file and create Wildfly custom module in Wildfly server 
 
-#Custom module in wildfly
+# Custom module in wildfly
 
 Go to <Wildfly Home Dir>/modules/system/layers/base/org/jboss 
 create a directory called custom-logger and create main folder inside custom-logger
